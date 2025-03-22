@@ -1,0 +1,429 @@
+@font-face {
+    font-family: latin;
+    src: url('./assets/fonts/PlaywriteCU-VariableFont_wght.ttf');
+}
+body {
+    background-color: black;
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #353535;
+}
+.logo img {
+    width: 100px;
+}
+.kontak {
+    margin-top: 10px;
+}
+.kontak a {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 14px;
+    color: yellow;
+    border: 1px solid yellow;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.header-section {
+    margin: 60px 25px 0 20px;
+}
+.tagline {
+    color: white;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+.tagline span {
+    font-size: 70px;
+    color: yellow;
+}
+.header-kontak {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 14px;
+    color: yellow;
+    border: 1px solid yellow;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+}
+.main-left {
+    margin: 100px 0 0 20px;
+    display: flex;
+}
+.main-left h6 {
+    color: white;
+    font-size: 40px;
+    margin: 0 0 0 17px;
+}
+.main-arrow {
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+}
+.main-features {
+    margin: 20px 0 0 60px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    width: 90%;
+}
+.card {
+    border: 1px solid #353535;
+    padding: 15px;
+    border-radius: 4px 16px 4px 16px;
+    width: 50%;
+    margin: 5px;
+}
+.card-img {
+    width: 39px;
+}
+.card .card-judul {
+    color: yellow;
+    margin-top: 6px;
+    font-size: 17px;
+    padding-top: 15px;
+    margin-bottom: 6px;
+    border-top: 1px solid #353535;
+}
+.card .card-desc {
+    color: #5a5858;
+    /* color: white; */
+}
+.main-img {
+    width: 500px;
+}
+.services-package {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.first-pagcakge {
+    border: 1px solid #353535;
+    border-radius: 4px 16px 4px 16px;
+    padding: 10px;
+    width: 40%;
+    margin: 0 20px;
+}
+.package-category {
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid #353535;
+    margin: 5px 6px;
+    padding-bottom: 7px;
+}
+.package-name {
+    color: yellow;
+    margin: 5px 5px;
+    font-size: 17px;
+}
+.package-price {
+    color: white;
+    margin: 5px 5px;
+}
+.btn-details {
+    height: 30px;
+    background-color: transparent;
+    color: #353535;
+    font-weight: 700;
+    margin: 5px;
+    border: 1px solid #353535;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-details:hover {
+    background-color: #353535;
+    color: white;
+}
+.lis-section .lis {
+    color: white;
+    margin: 7px 0;
+}
+.section-book {
+    margin: 30px 5px;
+}
+.btn-buy {
+    color: #353535;
+    font-weight: 700;
+    /* margin: 5px 20px; */
+    text-decoration: none;
+    border: 1px solid #353535;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-buy:hover {
+    background-color: #353535;
+    color: white;
+}
+.whysection {
+    margin: 20px 0;
+    /* width: 25%; */
+}
+.whyjudul {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.whycaption {
+    text-align: center;
+    color: yellow;
+    font-size: 17px;
+    /* font-family: latin; */
+    margin: 0 auto;
+    width: 70%;
+}
+.card-why {
+    /* width: 800px; */
+    margin: 20px;
+    display: flex;
+}
+.why-kotak {
+    margin: 20px;
+    border: 1px solid #353535;
+    padding: 15px;
+    border-radius: 4px 16px 4px 16px;
+    width: 50%;
+    margin: 5px;
+}
+.why-judul {
+    color: yellow;
+    margin-top: 6px;
+    font-size: 17px;
+    padding-top: 15px;
+    margin-bottom: 6px;
+    border-top: 1px solid #353535;
+}
+.why-desc {
+    color: #5a5858;
+}
+.why-img {
+    width: 40px;
+}
+.footer-section {
+    margin-top: 40px;
+    /* background-color: white; */
+}
+.footer-img {
+    width: 100%;
+}
+.connect-judul {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 200;
+}
+.connect-judul span {
+    font-size: 40px;
+    color: yellow;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.connect-section {
+    margin: 0 20px 0 20px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.connect-kontak {
+    width: 80%;
+    /* text-align: center; */
+    margin: auto;
+}
+.kontak1 {
+    margin-bottom: 8px;
+}
+.kontak-judul h6 {
+    color: rgb(85, 73, 73);
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+.pemisah {
+    /* width: 80%; */
+    display: flex;
+    justify-content: space-between;
+}
+.pemisahkanan img {
+    width: 200px;
+}
+.connect-icon {
+    width: 17px;
+    margin-top: 5px;
+}
+.connect-email {
+    color: #353535;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 7px;
+}
+.connect-form {
+    margin-top: 48px;
+    width: 50%;
+}
+form .input-data {
+    width: 90%;
+    height: 30px;
+    background-color: black;
+    border: 1px solid #353535;
+    padding: 5px 10px;
+    font-weight: 700;
+    color: white;
+}
+form .textar {
+    width: 90%;
+    height: 100%;
+    background-color: black;
+    padding: 5px 10px;
+    font-weight: 700;
+    color: white;
+}
+form .submit {
+    /* width: 90%; */
+    /* padding: 5px 10px; */
+    height: 30px;
+    background-color: #353535;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.footer-copyright {
+    /* text-align: center; */
+    font-size: 13px;
+    color: #353535;
+}
+/* flaaticon #5CFF00 */
+
+
+
+
+/* BREAKPOINT */
+@media (max-width:992px) {
+    .main-features {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .card {
+        width: 90%;
+    }
+    .card-img {
+        width: 30px;
+    }
+    .card .card-judul {
+        padding-top: 4px;
+    }
+    .card-desc {
+        margin-bottom: 3px;
+        margin-top: 0;
+    }
+}
+@media (max-width:768px) {
+    .tagline {
+        font-size: 50px;
+    }
+    .tagline span {
+        font-size: 50px;
+    }
+    .main-arrow {
+        width: 20px;
+        height: 20px;
+    }
+    .main-left h6 {
+        font-size: 25px;
+        margin-top: 2px;
+    }
+    .main-img {
+        /* width: 300px; */
+        display: none;
+    }
+    .main-features {
+        margin-top: 20px;
+        flex-direction: row;
+    }
+    .services-package {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+    .first-pagcakge {
+        margin-bottom: 10px;
+    }
+    .card-why {
+        margin: 20px auto;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+    }
+    .whyjudul {
+        font-size: 25px;
+    }
+    .why-kotak {
+        width: 39%;
+    }
+    .connect-section {
+        display: block;
+    }
+    .connect-kontak {
+        width: 70%;
+        margin: auto;
+    }
+    .pemisah {
+        display: block;
+    }
+    .pemisahkanan img {
+        display: none;
+    }
+    .connect-judul {
+        font-size: 25px;
+    }
+    .connect-judul span {
+        font-size: 25px;
+    }
+    .kontak-judul h6 {
+        margin-bottom: 20px;
+    }
+    .connect-form {
+        width: 70%;
+        margin: 50px auto;
+    }
+    .footer-copyright {
+        margin-top: 40px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
+@media (max-width:576px) {
+    .main-img {
+        width: 200px;
+    }
+    .main-features {
+        flex-direction: column;
+        margin: 10px;
+    }
+    .first-pagcakge {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .card {
+        width: 97%;
+        margin-right: 5px;
+    }
+    .why-kotak {
+        width: 100%;
+    }
+    .whycaption {
+        font-size: 14px;
+        width: 90%;
+    }
+    .connect-kontak {
+        width: 94%;
+        margin: 0;
+    }
+    .connect-form {
+        width: 100%;
+    }
+}
